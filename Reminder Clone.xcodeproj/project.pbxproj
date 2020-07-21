@@ -16,6 +16,9 @@
 		F71551EC24C6CB5F00BF65E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71551EA24C6CB5F00BF65E3 /* LaunchScreen.storyboard */; };
 		F71551F724C6CB5F00BF65E3 /* Reminder_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71551F624C6CB5F00BF65E3 /* Reminder_CloneTests.swift */; };
 		F715520224C6CB5F00BF65E3 /* Reminder_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715520124C6CB5F00BF65E3 /* Reminder_CloneUITests.swift */; };
+		F715521424C6EBDA00BF65E3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715521324C6EBDA00BF65E3 /* ViewModel.swift */; };
+		F715521624C7114100BF65E3 /* CheckListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715521524C7114100BF65E3 /* CheckListItem.swift */; };
+		F715521824C7279800BF65E3 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715521724C7279800BF65E3 /* ListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		F71551FD24C6CB5F00BF65E3 /* Reminder CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reminder CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F715520124C6CB5F00BF65E3 /* Reminder_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder_CloneUITests.swift; sourceTree = "<group>"; };
 		F715520324C6CB5F00BF65E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F715521324C6EBDA00BF65E3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F715521524C7114100BF65E3 /* CheckListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListItem.swift; sourceTree = "<group>"; };
+		F715521724C7279800BF65E3 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +110,14 @@
 				F71551DC24C6CB5D00BF65E3 /* AppDelegate.swift */,
 				F71551DE24C6CB5D00BF65E3 /* SceneDelegate.swift */,
 				F71551E324C6CB5D00BF65E3 /* ContentView.swift */,
+				F715521524C7114100BF65E3 /* CheckListItem.swift */,
+				F715521324C6EBDA00BF65E3 /* ViewModel.swift */,
 				F71551E524C6CB5F00BF65E3 /* Assets.xcassets */,
 				F71551EA24C6CB5F00BF65E3 /* LaunchScreen.storyboard */,
 				F71551ED24C6CB5F00BF65E3 /* Info.plist */,
 				F71551E024C6CB5D00BF65E3 /* Reminder_Clone.xcdatamodeld */,
 				F71551E724C6CB5F00BF65E3 /* Preview Content */,
+				F715521724C7279800BF65E3 /* ListItem.swift */,
 			);
 			path = "Reminder Clone";
 			sourceTree = "<group>";
@@ -274,6 +283,9 @@
 				F71551E224C6CB5D00BF65E3 /* Reminder_Clone.xcdatamodeld in Sources */,
 				F71551E424C6CB5D00BF65E3 /* ContentView.swift in Sources */,
 				F71551DF24C6CB5D00BF65E3 /* SceneDelegate.swift in Sources */,
+				F715521824C7279800BF65E3 /* ListItem.swift in Sources */,
+				F715521424C6EBDA00BF65E3 /* ViewModel.swift in Sources */,
+				F715521624C7114100BF65E3 /* CheckListItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
